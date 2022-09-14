@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;    
+    line-height: 1.6em;
+}
+
+span {
+    color: red;
+    font-style: italic;
+    font-weight: 700;
+    
+}

@@ -1,0 +1,41 @@
+#box-1{
+    background-color: blanchedalmond;
+    /* First way isn't recommended*/
+    /* border-width: 3px;
+    border-color: red;
+    border-style: solid; */
+    
+    /* Second way recommended */
+    border: 3px red solid;
+    border-radius: 10px;
+}
+
+#box-2{
+    background-color: #333;
+    color: #fff;
+    border-top: blue solid 3px;
+    border-top-left-radius: 10px;
+}
+
+#box-3{
+    background-image: url('/img/stars.jpg');
+    color: #fff;
+    height: 300px;
+    width: 600px;
+    background-position: 100px 0;
+    background-size: cover;
+    /* Second way */
+    background: url('/img/stars.jpg') no-repeat center center/cover;
+}
+
+#box-4{
+    background-image: url('/img/leaff.ico');
+    background-repeat: repeat-y;
+    height: 600px;
+    width: 200px;
+}
+
+#box-5{
+    background: url(/img/leaf.png) no-repeat center center;
+    background-attachment: fixed;
+}
